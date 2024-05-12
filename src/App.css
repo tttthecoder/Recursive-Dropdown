@@ -1,0 +1,36 @@
+#root {
+  color: black;
+}
+
+.submenu {
+  display: none;
+}
+ul {
+  list-style: none;
+}
+.list-item-with-list {
+  width: fit-content;
+  color: blueviolet;
+  background-color: aquamarine;
+  cursor: pointer;
+  position: relative;
+  padding: 4px 4px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 2px;
+}
+.list-leaf-item {
+  margin: 2px;
+  width: fit-content;
+  color: blueviolet;
+  padding: 4px 4px;
+  border-radius: 4px;
+  background-color: burlywood;
+}
+.introduce-text {
+  color: blueviolet;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
